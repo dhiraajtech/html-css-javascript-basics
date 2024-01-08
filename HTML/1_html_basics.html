@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sample HTML document covering basic HTML concepts.">
+    <meta name="author" content="Your Name">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Web Development">
+    <title>Basic HTML Concepts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .container {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Basic HTML Concepts</h1>
+    </header>
+
+    <section>
+        <h2><code>&lt;!DOCTYPE html&gt;</code></h2>
+        <p>The <code>&lt;!DOCTYPE html&gt;</code> declaration defines the document type and version of HTML being used. It must be placed at the very beginning of an HTML document.</p>
+        <pre>
+            <code>&lt;!DOCTYPE html&gt;</code>
+        </pre>
+    </section>
+
+    <section>
+        <h2>HTML Tag Attributes</h2>
+        <p>HTML tags can have attributes that provide additional information about the element. Attributes are added within the opening tag.</p>
+        <pre>
+            <code>&lt;tagname attribute="value"&gt;Content&lt;/tagname&gt;</code>
+        </pre>
+        <p>Example: <code>&lt;a href="https://example.com" target="_blank" title="Visit Example"&gt;Visit Example&lt;/a&gt;</code></p>
+    </section>
+
+    <section>
+        <h2><code>&lt;head&gt;</code> Tag</h2>
+        <p>The <code>&lt;head&gt;</code> tag contains meta-information about the HTML document, such as title, styles, and meta tags.</p>
+        <pre>
+            <code>&lt;head&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;</code>
+        </pre>
+    </section>
+
+    <section>
+        <h2><code>&lt;style&gt;</code> Tag</h2>
+        <p>The <code>&lt;style&gt;</code> tag is used to define styles for the document, either inline or by referencing an external stylesheet.</p>
+        <pre>
+            <code>&lt;style&gt;
+    body {
+        background-color: #f0f0f0;
+    }
+&lt;/style&gt;</code>
+        </pre>
+    </section>
+
+    <section>
+        <h2><code>&lt;meta&gt;</code> Tag</h2>
+        <p>The <code>&lt;meta&gt;</code> tag provides metadata about the HTML document, such as character set, viewport settings, etc.</p>
+        <pre>
+            <code>&lt;meta charset="UTF-8"&gt;</code>
+        </pre>
+    </section>
+
+      <section>
+        <h2><code>&lt;meta&gt;</code> Tag</h2>
+        <p>The <code>&lt;meta&gt;</code> tag provides metadata about the HTML document.</p>
+
+        <h3>Charset</h3>
+        <pre>
+            <code>&lt;meta charset="UTF-8"&gt;</code>
+        </pre>
+
+        <h3>Description, Author, Keywords</h3>
+        <pre>
+            <code>&lt;meta name="description" content="A sample HTML document covering basic HTML concepts."&gt;</code>
+            <code>&lt;meta name="author" content="Your Name"&gt;</code>
+            <code>&lt;meta name="keywords" content="HTML, CSS, JavaScript, Web Development"&gt;</code>
+        </pre>
+
+        <!-- Additional meta tags can be added based on the needs -->
+
+        <h3>Viewport Settings</h3>
+        <pre>
+            <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code>
+        </pre>
+    </section>
+
+    <section>
+        <h2><code>&lt;body&gt;</code> Tag</h2>
+        <p>The <code>&lt;body&gt;</code> tag contains the content of the HTML document, including text, images, links, etc.</p>
+        <pre>
+            <code>&lt;body&gt;
+    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+&lt;/body&gt;</code>
+        </pre>
+    </section>
+
+    <section>
+        <h2>Heading Tags (<code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>)</h2>
+        <p>Heading tags are used to define headings. <code>&lt;h1&gt;</code> is the largest, and <code>&lt;h6&gt;</code> is the smallest.</p>
+        <pre>
+            <code>&lt;h1&gt;Main Heading&lt;/h1&gt;</code>
+        </pre>
+    </section>
+
+    <section>
+        <h2><code>&lt;p&gt;</code> Tag</h2>
+        <p>The <code>&lt;p&gt;</code> tag defines a paragraph of text.</p>
+        <pre>
+            <code>&lt;p&gt;This is a paragraph of text.&lt;/p&gt;</code>
+        </pre>
+    </section>
+
+    <section>
+        <h2><code>&lt;a&gt;</code> Tag</h2>
+        <p>The <code>&lt;a&gt;</code> tag defines a hyperlink, linking to another page or resource.</p>
+        <pre>
+            <code>&lt;a href="https://example.com" target="_blank" title="Visit Example"&gt;Visit Example&lt;/a&gt;</code>
+        </pre>
+    </section>
+
+    <section>
+        <h2><code>&lt;img&gt;</code> Tag</h2>
+        <p>The <code>&lt;img&gt;</code> tag is used to embed images in the document.</p>
+        <pre>
+            <code>&lt;img src="image.jpg" alt="Description"&gt;</code>
+        </pre>
+    </section>
+
+    <section>
+        <h2><code>&lt;div&gt;</code> Tag</h2>
+        <p>The <code>&lt;div&gt;</code> tag is a container that groups other HTML elements and applies styles or scripts to them.</p>
+        <pre>
+            <code>&lt;div class="container"&gt;
+    &lt;p&gt;This is a content inside a div.&lt;/p&gt;
+&lt;/div&gt;</code>
+        </pre>
+    </section>
+
+    <footer>
+        <p>For more details, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN HTML documentation</a>.</p>
+    </footer>
+
+</body>
+</html>
