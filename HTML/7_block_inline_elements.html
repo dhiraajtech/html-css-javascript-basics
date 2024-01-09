@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block and Inline Elements Example</title>
+    <style>
+        /* Style for demonstration purposes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .block-example {
+            background-color: #e0e0e0;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .inline-example {
+            background-color: #f0f0f0;
+            padding: 5px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+          <div class="block-example">
+        <h2>Block-level Elements:</h2>
+        <p><strong>Definition:</strong> Block-level elements are the building blocks of the document structure, and they typically start on a new line and take up the full width available, extending the entire width of their container.</p>
+        <p><strong>Examples:</strong></p>
+        <ul>
+            <li>&lt;div&gt;: Represents a division or section of the document.</li>
+            <li>&lt;p&gt;: Represents a paragraph.</li>
+            <li>&lt;h1&gt; to &lt;h6&gt;: Heading elements.</li>
+            <li>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;: List elements.</li>
+            <li>&lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;: Table elements.</li>
+            <li>&lt;form&gt;: Represents an HTML form.</li>
+        </ul>
+        <p><strong>Usage:</strong> Block-level elements are commonly used to structure the layout and major sections of a web page. They can contain other block-level and inline elements.</p>
+    </div>
+
+    <div class="inline-example">
+        <h2>Inline Elements:</h2>
+        <p><strong>Definition:</strong> Inline elements do not start on a new line, and they only take up as much width as necessary. They typically flow within the content and do not force a new line.</p>
+        <p><strong>Examples:</strong></p>
+        <ul>
+            <li>&lt;span&gt;: Represents a small, generic container.</li>
+            <li>&lt;a&gt;: Represents a hyperlink.</li>
+            <li>&lt;strong&gt; and &lt;em&gt;: Represents strong importance and emphasized text, respectively.</li>
+            <li>&lt;img&gt;: Embeds images.</li>
+            <li>&lt;br&gt;: Represents a line break within text.</li>
+            <li>&lt;input&gt;, &lt;button&gt;, &lt;select&gt;, &lt;textarea&gt;: Form elements.</li>
+        </ul>
+        <p><strong>Usage:</strong> Inline elements are often used for styling individual pieces of text or for including elements within a block-level context.</p>
+    </div>
+
+    <div class="block-example">
+        <h2>Differentiating Factors:</h2>
+        <ul>
+            <li><strong>Container Nature:</strong> Block-level elements can contain both block-level and inline elements.</li>
+            <li><strong>Inline elements can only contain other inline elements or text.</strong></li>
+            <li><strong>Width:</strong> Block-level elements take up the full width available, horizontally stretching to the edges of their container.</li>
+            <li><strong>Inline elements only take up as much width as necessary.</strong></li>
+        </ul>
+    </div>
+
+    </section>
+
+    <!-- Block-level elements example -->
+    <div class="block-example">
+        <h2>Block-Level Element: <code>&lt;div&gt;</code></h2>
+        <!-- HTML syntax for the <div> tag -->
+        <code>&lt;div&gt;
+            &lt;h1&gt;This is a Block-Level Element&lt;/h1&gt;
+            &lt;p&gt;This paragraph is inside a &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; block, which is a block-level element. It starts on a new line and takes up the full width available.&lt;/p&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Item 1&lt;/li&gt;
+                &lt;li&gt;Item 2&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;</code>
+        <!-- Example of using the <div> tag -->
+        <p>This is a Block-Level Element</p>
+        <p>This paragraph is inside a <code>&lt;div&gt;</code> block, which is a block-level element. It starts on a new line and takes up the full width available.</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+    </div>
+
+    <!-- Inline elements example -->
+    <p class="block-example">
+        <h2>Inline Elements: <code>&lt;span&gt;</code>, <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code>, <code>&lt;a&gt;</code>, <code>&lt;br&gt;</code>, <code>&lt;img&gt;</code></h2>
+        <!-- HTML syntax for the inline elements -->
+        <code>&lt;p class="block-example"&gt;
+            This is a paragraph with some inline elements:
+            &lt;span class="inline-example"&gt;&lt;strong&gt;Strong&lt;/strong&gt;&lt;/span&gt;
+            &lt;span class="inline-example"&gt;&lt;em&gt;Emphasized&lt;/em&gt;&lt;/span&gt;
+            &lt;a href="#"&gt;Inline Link&lt;/a&gt;
+            &lt;br&gt;
+            &lt;img src="https://via.placeholder.com/100" alt="Inline Image"&gt;
+        &lt;/p&gt;</code>
+        <!-- Example of using the inline elements -->
+        <p>This is a paragraph with some inline elements:
+            <span class="inline-example"><strong>Strong</strong></span>
+            <span class="inline-example"><em>Emphasized</em></span>
+            <a href="#">Inline Link</a>
+            <br>
+            <img src="https://via.placeholder.com/100" alt="Inline Image">
+        </p>
+    </p>
+
+</body>
+</html>
